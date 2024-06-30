@@ -1,0 +1,7 @@
+{
+  "parent": "panmod:custom/panmod_nonstick_pan",
+  "textures": {
+    "0": "panmod:blocks/tex_nonstickpan01",
+    "particle": "panmod:items/tex_nonstickpan01"
+  }
+}

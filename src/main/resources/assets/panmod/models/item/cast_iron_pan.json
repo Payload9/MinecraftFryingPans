@@ -1,0 +1,8 @@
+{
+  "parent": "panmod:custom/panmod_castiron_pan",
+  "textures": {
+    "0": "panmod:blocks/tex_castironpan01",
+    "1": "panmod:blocks/tex_castironpan02",
+    "particle": "panmod:items/tex_castironpan01"
+  }
+}

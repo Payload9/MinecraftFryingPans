@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "panmod:grey_nonstick_pan",
+    "panmod:orange_nonstick_pan",
+    "panmod:black_nonstick_pan",
+    "panmod:cast_iron_pan",
+    "panmod:cyan_nonstick_pan",
+    "panmod:purple_nonstick_pan",
+    "panmod:red_nonstick_pan",
+    "panmod:blue_nonstick_pan",
+    "panmod:green_nonstick_pan",
+    "panmod:copper_nonstick_pan",
+    "panmod:lime_nonstick_pan",
+    "panmod:megenta_nonstick_pan",
+    "panmod:light_grey_nonstick_pan",
+    "panmod:white_nonstick_pan",
+    "panmod:pink_nonstick_pan",
+    "panmod:yellow_nonstick_pan",
+    "panmod:brown_nonstick_pan",
+    "panmod:light_blue_nonstick_pan"
+  ]
+}

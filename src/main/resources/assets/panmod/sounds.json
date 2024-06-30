@@ -1,0 +1,42 @@
+{
+  "fryingpan_01": {
+    "category": "player",
+    "subtitle": "subtitles.fryingpan_01",
+    "sounds": [
+      {
+        "name": "panmod:melee_frying_pan_01",
+        "stream": false
+      }
+    ]
+  },
+  "fryingpan_02": {
+    "category": "player",
+    "subtitle": "subtitles.fryingpan_02",
+    "sounds": [
+      {
+        "name": "panmod:melee_frying_pan_02",
+        "stream": false
+      }
+    ]
+  },
+  "fryingpan_03": {
+    "category": "player",
+    "subtitle": "subtitles.fryingpan_03",
+    "sounds": [
+      {
+        "name": "panmod:melee_frying_pan_03",
+        "stream": false
+      }
+    ]
+  },
+  "fryingpan_04": {
+    "category": "player",
+    "subtitle": "subtitles.fryingpan_04",
+    "sounds": [
+      {
+        "name": "panmod:melee_frying_pan_04",
+        "stream": false
+      }
+    ]
+  }
+}

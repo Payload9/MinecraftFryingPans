@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "tex_corange_nonstick01"
+      },
+      "name": "default"
+    }
+  }
+}

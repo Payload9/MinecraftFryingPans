@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tex_castironpan01",
+        "1": "tex_castironpan02"
+      },
+      "name": "default"
+    }
+  }
+}

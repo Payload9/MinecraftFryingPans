@@ -1,0 +1,700 @@
+{
+  "mod_elements": [
+    {
+      "name": "CopperNonstickPan",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/copper_nonstick_pan.json",
+          "src/main/java/payloadmods/panmod/item/CopperNonstickPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperNonstickPanLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nonstick_pan_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/procedures/CopperNonstickPanLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeCopperNonStickPan",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_copper_non_stick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_copper_non_stick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "CastIronPan",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cast_iron_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/cast_iron_pan.json",
+          "src/main/java/payloadmods/panmod/item/CastIronPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecipeCastIronPan",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_cast_iron_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_cast_iron_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "CastIronPanLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cast_iron_pan_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/procedures/CastIronPanLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ColorableNonstickPan",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/white_nonstick_pan.json",
+          "src/main/java/payloadmods/panmod/item/ColorableNonstickPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedNonstickPan",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/red_nonstick_pan.json",
+          "src/main/java/payloadmods/panmod/item/RedNonstickPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueNonstickPan",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/item/BlueNonstickPanItem.java",
+          "src/main/resources/assets/panmod/models/item/blue_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackNonstickPan",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/black_nonstick_pan.json",
+          "src/main/java/payloadmods/panmod/item/BlackNonstickPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BrownNonstickPan",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/item/BrownNonstickPanItem.java",
+          "src/main/resources/assets/panmod/models/item/brown_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanNonstickPan",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/cyan_nonstick_pan.json",
+          "src/main/java/payloadmods/panmod/item/CyanNonstickPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenNonstickPan",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/item/GreenNonstickPanItem.java",
+          "src/main/resources/assets/panmod/models/item/green_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "GreyNonstickPan",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/grey_nonstick_pan.json",
+          "src/main/java/payloadmods/panmod/item/GreyNonstickPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LightBlueNonstickPan",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/light_blue_nonstick_pan.json",
+          "src/main/java/payloadmods/panmod/item/LightBlueNonstickPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LightGreyNonstickPan",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_grey_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/item/LightGreyNonstickPanItem.java",
+          "src/main/resources/assets/panmod/models/item/light_grey_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "LimeNonstickPan",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/item/LimeNonstickPanItem.java",
+          "src/main/resources/assets/panmod/models/item/lime_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "MagentaNonstickPan",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megenta_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/item/MagentaNonstickPanItem.java",
+          "src/main/resources/assets/panmod/models/item/megenta_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeNonstickPan",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/item/OrangeNonstickPanItem.java",
+          "src/main/resources/assets/panmod/models/item/orange_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkNonstickPan",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/pink_nonstick_pan.json",
+          "src/main/java/payloadmods/panmod/item/PinkNonstickPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PurpleNonstickPan",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/panmod/models/item/purple_nonstick_pan.json",
+          "src/main/java/payloadmods/panmod/item/PurpleNonstickPanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowNonstickPan",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/item/YellowNonstickPanItem.java",
+          "src/main/resources/assets/panmod/models/item/yellow_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeWhiteNonstickPan",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_white_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_white_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeRedNonstickPan",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_red_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_red_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeBlueNonstickPan",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_blue_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_blue_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeBlackNonstickPan",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_black_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_black_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeBrownNonstickPan",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_brown_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_brown_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeCyanNonstickPan",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_cyan_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_cyan_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeGreenNonstickPan",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_green_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_green_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeGreyNonstickPan",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_grey_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_grey_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeLightBlueNonstickPan",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_light_blue_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_light_blue_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeLightGreyNonstickPan",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_light_grey_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_light_grey_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeLimeNonstickPan",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_lime_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_lime_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeMegentaNonstickPan",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_megenta_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_megenta_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeOrangeNonstickPan",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_orange_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_orange_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipePinkNonstickPan",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_pink_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_pink_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipePurpleNonstickPan",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_purple_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_purple_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipeYellowNonstickPan",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_yellow_nonstick_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/recipes/recipe_yellow_nonstick_pan.json"
+        ]
+      }
+    },
+    {
+      "name": "FryingPanFirstUse",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frying_pan_first_use",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/panmod/advancements/frying_pan_first_use.json"
+        ]
+      }
+    },
+    {
+      "name": "NonstickPans",
+      "type": "tag",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nonstick_pans",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/nonstick_pans.json"
+        ]
+      }
+    },
+    {
+      "name": "AllPans",
+      "type": "tag",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "all_pans",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/all_pans.json"
+        ]
+      }
+    },
+    {
+      "name": "FirstPanKillProcedure",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_pan_kill_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/payloadmods/panmod/procedures/FirstPanKillProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "fryingpan_01",
+      "files": [
+        "melee_frying_pan_01"
+      ],
+      "category": "player",
+      "subtitle": "Frying pan hits"
+    },
+    {
+      "name": "fryingpan_02",
+      "files": [
+        "melee_frying_pan_02"
+      ],
+      "category": "player",
+      "subtitle": "Frying pan hits"
+    },
+    {
+      "name": "fryingpan_03",
+      "files": [
+        "melee_frying_pan_03"
+      ],
+      "category": "player",
+      "subtitle": "Frying pan hits"
+    },
+    {
+      "name": "fryingpan_04",
+      "files": [
+        "melee_frying_pan_04"
+      ],
+      "category": "player",
+      "subtitle": "Frying pan hits"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.fryingpan_02": "Frying pan hits",
+      "item.panmod.megenta_nonstick_pan": "Megenta Nonstick Pan",
+      "item.panmod.brown_nonstick_pan": "Brown Nonstick Pan",
+      "subtitles.fryingpan_03": "Frying pan hits",
+      "subtitles.fryingpan_04": "Frying pan hits",
+      "item.panmod.light_grey_nonstick_pan": "Light Grey Nonstick Pan",
+      "subtitles.fryingpan_01": "Frying pan hits",
+      "item.panmod.lime_nonstick_pan": "Lime Nonstick Pan",
+      "item.panmod.black_nonstick_pan": "Black Nonstick Pan",
+      "item.panmod.cyan_nonstick_pan": "Cyan Nonstick Pan",
+      "item.panmod.pink_nonstick_pan": "Pink Nonstick Pan",
+      "item.panmod.yellow_nonstick_pan": "Yellow Nonstick Pan",
+      "item.panmod.orange_nonstick_pan": "Orange Nonstick Pan",
+      "item.panmod.light_blue_nonstick_pan": "Light Blue Nonstick Pan",
+      "item.panmod.purple_nonstick_pan": "Purple Nonstick Pan",
+      "item.panmod.white_nonstick_pan": "White Nonstick Pan",
+      "item.panmod.cast_iron_pan": "Cast Iron Pan",
+      "item.panmod.red_nonstick_pan": "Red Nonstick Pan",
+      "item.panmod.grey_nonstick_pan": "Grey Nonstick Pan",
+      "item.panmod.blue_nonstick_pan": "Blue Nonstick Pan",
+      "advancements.frying_pan_first_use.title": "Bonk!",
+      "item.panmod.green_nonstick_pan": "Green Nonstick Pan",
+      "advancements.frying_pan_first_use.descr": "Use the frying pan to kill a hostile mob.",
+      "item.panmod.copper_nonstick_pan": "Copper Nonstick Pan"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "panmod",
+    "modName": "panmod",
+    "version": "1.2.0",
+    "author": "Payload9",
+    "websiteURL": ".",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "thumb",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": ".",
+    "modElementsPackage": "payloadmods.panmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

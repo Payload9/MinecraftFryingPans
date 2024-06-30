@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "tex_ccyan_nonstick01"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CopperNonstickPan"
+      },
+      {
+        "value": "CUSTOM:CastIronPan"
+      },
+      {
+        "value": "CUSTOM:ColorableNonstickPan"
+      },
+      {
+        "value": "CUSTOM:RedNonstickPan"
+      },
+      {
+        "value": "CUSTOM:BlueNonstickPan"
+      },
+      {
+        "value": "CUSTOM:BlackNonstickPan"
+      },
+      {
+        "value": "CUSTOM:BrownNonstickPan"
+      },
+      {
+        "value": "CUSTOM:CyanNonstickPan"
+      },
+      {
+        "value": "CUSTOM:GreenNonstickPan"
+      },
+      {
+        "value": "CUSTOM:GreyNonstickPan"
+      },
+      {
+        "value": "CUSTOM:LightBlueNonstickPan"
+      },
+      {
+        "value": "CUSTOM:LightGreyNonstickPan"
+      },
+      {
+        "value": "CUSTOM:LimeNonstickPan"
+      },
+      {
+        "value": "CUSTOM:MagentaNonstickPan"
+      },
+      {
+        "value": "CUSTOM:OrangeNonstickPan"
+      },
+      {
+        "value": "CUSTOM:PinkNonstickPan"
+      },
+      {
+        "value": "CUSTOM:PurpleNonstickPan"
+      },
+      {
+        "value": "CUSTOM:YellowNonstickPan"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "all_pans",
+    "namespace": "forge"
+  }
+}

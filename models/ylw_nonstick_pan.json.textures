@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "tex_cyellow_nonstick01"
+      },
+      "name": "default"
+    }
+  }
+}
