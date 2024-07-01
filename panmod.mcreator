@@ -682,7 +682,7 @@
     "modName": "panmod",
     "version": "1.2.0",
     "author": "Payload9",
-    "websiteURL": "https://github.com/Payload9/panmod",
+    "websiteURL": "https://github.com/Payload9/MinecraftFryingPans",
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
