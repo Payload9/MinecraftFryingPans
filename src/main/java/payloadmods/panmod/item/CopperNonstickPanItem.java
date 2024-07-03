@@ -37,7 +37,7 @@ public class CopperNonstickPanItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -2.2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 3, -2.2f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
 
 	@Override
